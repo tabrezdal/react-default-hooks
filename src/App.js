@@ -5,6 +5,7 @@ import UseReducer from './useReducer/UseReducer';
 import UseEffect from './useEffect/UseEffect';
 import UseRef from './useRef/UseRef';
 import UseLayout from './useLayout/UseLayout';
+import ImparativeHandle from './imapareativeHandle/ImparativeHandle';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <UseEffect />
         <UseRef />
         <UseLayout />
+        <ImparativeHandle />
     </div>
     
   )
