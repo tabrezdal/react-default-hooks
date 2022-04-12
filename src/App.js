@@ -4,6 +4,8 @@ import UseStateInput from './useState/UseState_input';
 import UseReducer from './useReducer/UseReducer';
 import UseEffect from './useEffect/UseEffect';
 import UseRef from './useRef/UseRef';
+import UseLayout from './useLayout/UseLayout';
+
 
 const App = () => {
   return (
@@ -13,6 +15,7 @@ const App = () => {
         <UseReducer />
         <UseEffect />
         <UseRef />
+        <UseLayout />
     </div>
     
   )
