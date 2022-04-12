@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import AppContext from './Context'
 
-const User = ({ username }) => {
+const User = () => {
+
+    const {username} = useContext(AppContext);
   return (
     <div>
-        <h1>user : {username}</h1>
-        {/* not getting update, could not find reason */}
+        <h3>user : {username}</h3>
     </div>
   )
 }

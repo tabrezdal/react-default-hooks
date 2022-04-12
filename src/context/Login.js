@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import AppContext from './Context'
 
-const Login = ({ setUsername }) => {
+
+const Login = () => {
+
+    const { setUsername } = useContext(AppContext)
   return (
     <div>
         <input onChange={(event) => {
@@ -8,7 +12,7 @@ const Login = ({ setUsername }) => {
         }}
         />
     </div>
-  )
+  );
 }
 
 export default Login
