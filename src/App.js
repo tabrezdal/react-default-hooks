@@ -6,6 +6,7 @@ import UseEffect from './useEffect/UseEffect';
 import UseRef from './useRef/UseRef';
 import UseLayout from './useLayout/UseLayout';
 import ImparativeHandle from './imapareativeHandle/ImparativeHandle';
+import Context from './context/Context';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <UseRef />
         <UseLayout />
         <ImparativeHandle />
+        <Context />
     </div>
     
   )
