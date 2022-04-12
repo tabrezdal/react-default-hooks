@@ -1,8 +1,16 @@
+import React from 'react'
+import UseState from './useState/UseState';
+import UseStateInput from './useState/UseState_input';
 
-function App() {
+const App = () => {
   return (
+    <div>
+        <UseState/>
+        <UseStateInput />
 
-  );
+    </div>
+    
+  )
 }
 
-export default App;
+export default App
