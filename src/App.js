@@ -7,6 +7,7 @@ import UseRef from './useRef/UseRef';
 import UseLayout from './useLayout/UseLayout';
 import ImparativeHandle from './imapareativeHandle/ImparativeHandle';
 import Context from './context/Context';
+import Memo from './memo/Memo'
 
 
 const App = () => {
@@ -19,7 +20,8 @@ const App = () => {
         <UseRef />
         <UseLayout />
         <ImparativeHandle />
-        <Context />
+        {/* <Context /> */}
+        <Memo />
     </div>
     
   )
